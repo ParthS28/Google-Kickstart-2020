@@ -4,8 +4,12 @@ using namespace std;
 #define ll long long
 
 void solve(){
-    int n, k;
-    cin >> n >> k;
+    int n; cin >> n;
+    ll e[n], r[n];
+    for(int i = 0; i < n; i++){
+        cin >> e[i] >> r[i];
+    }
+
 }
 
 int main() {
